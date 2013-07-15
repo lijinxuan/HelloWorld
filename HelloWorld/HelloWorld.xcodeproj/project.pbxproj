@@ -18,6 +18,7 @@
 		26FC08DA1793F02B000FAF90 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26FC08D91793F02B000FAF90 /* Default-568h@2x.png */; };
 		26FC08DD1793F02B000FAF90 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FC08DC1793F02B000FAF90 /* ViewController.m */; };
 		26FC08E01793F02B000FAF90 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26FC08DE1793F02B000FAF90 /* ViewController.xib */; };
+		26FC08E81793FADB000FAF90 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FC08E71793FADB000FAF90 /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		26FC08DB1793F02B000FAF90 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		26FC08DC1793F02B000FAF90 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		26FC08DF1793F02B000FAF90 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		26FC08E61793FADB000FAF90 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		26FC08E71793FADB000FAF90 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				26FC08DC1793F02B000FAF90 /* ViewController.m */,
 				26FC08DE1793F02B000FAF90 /* ViewController.xib */,
 				26FC08CA1793F02B000FAF90 /* Supporting Files */,
+				26FC08E61793FADB000FAF90 /* Test.h */,
+				26FC08E71793FADB000FAF90 /* Test.m */,
 			);
 			path = HelloWorld;
 			sourceTree = "<group>";
@@ -176,6 +181,7 @@
 				26FC08D01793F02B000FAF90 /* main.m in Sources */,
 				26FC08D41793F02B000FAF90 /* AppDelegate.m in Sources */,
 				26FC08DD1793F02B000FAF90 /* ViewController.m in Sources */,
+				26FC08E81793FADB000FAF90 /* Test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
